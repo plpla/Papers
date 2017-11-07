@@ -1,5 +1,22 @@
 # Paper reading sprint
 
+
+### November 7 2017
+
+#### A simple representation of three-dimensional molecular structure
+
+* Suggest that using 3D fingerprints allow to encode more relevant informations than 2D fingerprints in many applications
+
+* We start with each atom a and give them a unique identifier (32 bit identifier). For each subsequent iterations i (a parameter), we look at a shell radius
+of i around a and generate a new joint identifier.
+
+* Merge by hashing each identifier over a large space --> almost no colision
+
+* Gives better results compared to 2D on SEA (binding on 2000 protein targets)
+
+* Encodes molecular information not available in 2D fingerprints (ex: steroisomere)
+
+
 ### October 23 2017
 
 #### Feature selection method based on support vector machine and shape analysis for high-throughput medical data.
